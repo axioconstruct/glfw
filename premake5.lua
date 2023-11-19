@@ -5,8 +5,8 @@ project "GLFW"
   language "C"
   staticruntime "off"
 
-  targetdir ("%{wks.location}/bin/" .. outputdir .. "/")
-  objdir ("%{wks.location}/obj/" .. outputdir .. "/")
+  targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
+  objdir ("%{wks.location}/obj/" .. outputdir .. "/%{prj.name}")
 
   -- core sources
   files {
