@@ -3,7 +3,7 @@
 project "GLFW"
   kind "StaticLib"
   language "C"
-  staticrumtime "off"
+  staticruntime "off"
 
   targetdir = ("bin/" .. outputdir .. "/%{prj.name}")
   objdir = ("obj/" .. outputdir .. "/%{prj.name}")
