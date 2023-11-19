@@ -68,11 +68,11 @@ project "GLFW"
       --"wl_window.c" 
 
     -- if wayland or x11 and systemname == "Linux"
-      "linux_joystick.h",
-      "linux_joystick.c",
+      "src/linux_joystick.h",
+      "src/linux_joystick.c",
     -- if wayland of x11
-      "posix_poll.h",
-      "posix_poll.c",
+      "src/posix_poll.h",
+      "src/posix_poll.c",
     }
 
     defines {
