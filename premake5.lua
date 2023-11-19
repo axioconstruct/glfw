@@ -9,7 +9,7 @@ project "GLFW"
   objdir ("%{wks.location}/obj/" .. outputdir .. "/")
 
   -- core sources
-  files = {
+  files {
     "include/GLFW/glfw3.h",
     "include/GLFW/glfw3native.h",
 
@@ -43,7 +43,7 @@ project "GLFW"
     cppdialect "C++17"
 
     -- linux-specific sources
-    files = {
+    files {
       "posix_time.h",
       "posix_thread.h",
     
