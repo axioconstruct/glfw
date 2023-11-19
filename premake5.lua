@@ -40,7 +40,7 @@ project "GLFW"
     -- generate position independent code, in which the static lib can be linked to dynamic libs
     pic "on"
     systemversion "latest"
-    cppdialext "C++17"
+    cppdialect "C++17"
 
     -- linux-specific sources
     files = {
@@ -72,15 +72,15 @@ project "GLFW"
       "_GLFW_X11"
       --"_GLFW_WAYLAND
       -- wayland build is more intricate and will need to be adapted. Therefore commented out for now.
-    }
+    } 
 
-	filter "configurations:Debug"
-		runtime "Debug"
-		symbols "on"
+  filter "configurations:Debug"
+    runtime "Debug"
+    symbols "on"
 
-	filter "configurations:Release"
-		runtime "Release"
-		optimize "on"
+  filter "configurations:Release"
+    runtime "Release"
+    optimize "on"
 
 	--filter "configurations:Dist"
 	--	runtime "Release"
