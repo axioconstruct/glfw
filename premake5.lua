@@ -13,27 +13,27 @@ project "GLFW"
     "include/GLFW/glfw3.h",
     "include/GLFW/glfw3native.h",
 
-    "internal.h",
-    "platform.h",
-    "mappings.h",
+    "src/internal.h",
+    "src/platform.h",
+    "src/mappings.h",
   
-    "context.c",
-    "init.c",
-    "input.c",
-    "monitor.c",
-    "platform.c",
-    "vulkan.c",
-    "window.c",
+    "src/context.c",
+    "src/init.c",
+    "src/input.c",
+    "src/monitor.c",
+    "src/platform.c",
+    "src/vulkan.c",
+    "src/window.c",
     
-    "egl_context.c",
-    "osmesa_context.c",
-    "null_platform.h",
-    "null_joystick.h",
+    "src/egl_context.c",
+    "src/osmesa_context.c",
+    "src/null_platform.h",
+    "src/null_joystick.h",
   
-    "null_init.c",
-    "null_monitor.c",
-    "null_window.c",
-    "null_joystick.c"
+    "src/null_init.c",
+    "src/null_monitor.c",
+    "src/null_window.c",
+    "src/null_joystick.c"
   }
 
   filter "system:linux"
@@ -44,22 +44,22 @@ project "GLFW"
 
     -- linux-specific sources
     files {
-      "posix_time.h",
-      "posix_thread.h",
+      "src/posix_time.h",
+      "src/posix_thread.h",
     
-      "posix_module.c",
-      "posix_time.c",
-      "posix_thread.c",
+      "src/posix_module.c",
+      "src/posix_time.c",
+      "src/posix_thread.c",
 
-      "xkb_unicode.h",
-      "xkb_unicode.c",
+      "src/xkb_unicode.h",
+      "src/xkb_unicode.c",
   
     -- GLFW_BUILD_X11
-      "x11_platform.h",
-      "x11_init.c",
-      "x11_monitor.c",
-      "x11_window.c",
-      "glx_context.c",
+      "src/x11_platform.h",
+      "src/x11_init.c",
+      "src/x11_monitor.c",
+      "src/x11_window.c",
+      "src/glx_context.c",
 
     -- GLFW_BUILD_WAYLAND
       --"wl_platform.h",
