@@ -1,5 +1,14 @@
+# ignore binary folders and local cache
+**/bin
+**/out
+**/obj
+**.cache
+
 # The canonical out-of-tree build subdirectory
 build
+
+# build system artifacts
+Makefile
 
 # Visual Studio clutter
 _ReSharper*
