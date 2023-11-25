@@ -78,6 +78,7 @@ video tutorials.
  - Kovid Goyal
  - Kevin Grandemange
  - Eloi Marín Gratacós
+ - Grzesiek11
  - Stefan Gustavson
  - Andrew Gutekanst
  - Stephen Gutekanst
@@ -206,6 +207,7 @@ video tutorials.
  - Yoshinori Sano
  - Brandon Schaefer
  - Sebastian Schuberth
+ - Scr3amer
  - Christian Sdunek
  - Matt Sealey
  - Steve Sexton
@@ -215,6 +217,7 @@ video tutorials.
  - Dmitri Shuralyov
  - Joao da Silva
  - Daniel Sieger
+ - Daljit Singh
  - Michael Skec
  - Daniel Skorupski
  - Slemmie
